@@ -5,9 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-cartoon-satellite-ruler-calculator-linear-education-background-picture-image_1458755.jpg");
+  color: white;
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc-wrapper {
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+  margin-top: 3.5rem;
+  border-style: double;
+  border-color: rgb(247, 243, 243);
+}
+
+.row {
+  display: flex;
 }
